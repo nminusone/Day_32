@@ -19,7 +19,7 @@ if now.weekday() == 0:
         connection.sendmail(from_addr=my_email, to_addrs="omar.python1@gmail.com",
                             msg=f"Subject: Very Bigly quote of the Day\n\n {daily_quote}")
 # connection.close()
-
+#
 # now=dt.datetime.now()
 # year=now.year
 # print(year)
